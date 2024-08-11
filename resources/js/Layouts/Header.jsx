@@ -9,8 +9,7 @@ export default function Header() {
             <nav className="relative container  w-full mx-auto sm:flex sm:items-center sm:justify-between px-3 lg:px-0" aria-label="Global">
                 <div className="flex items-center justify-between">
                     <Link href={route('homepage')} className="flex items-center space-x-2 text-xl font-semibold dark:text-white" aria-label="Brand">
-                        <img src="./faruqhossen.jpg" className="h-10 rounded-full" alt="" />
-                        <span className="whitespace-nowrap text-gray-400">Faruq Hossen</span>
+                        <span className="whitespace-nowrap text-gray-400">Computer Dictionary</span>
                     </Link>
                     <div className="sm:hidden">
                         <div className="inline px-2"> <Switcher /></div>

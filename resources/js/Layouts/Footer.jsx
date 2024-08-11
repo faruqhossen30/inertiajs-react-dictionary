@@ -46,13 +46,13 @@ export default function Footer({ auth }) {
 
                 <div className="text-center">
                     <Link href={route('homepage')} className="flex items-center justify-center space-x-2 text-xl font-semibold dark:text-white" aria-label="Brand">
-                        <img src="./faruqhossen.jpg" className="h-10 rounded-full" alt="" />
-                        <span className="whitespace-nowrap text-gray-400">Faruq Hossen</span>
+                        {/* <img src="./faruqhossen.jpg" className="h-10 rounded-full" alt="" /> */}
+                        <span className="whitespace-nowrap text-gray-400">Computer Dictionary</span>
                     </Link>
 
 .                    <div className="mt-3">
                         <p className="text-gray-500 dark:text-neutral-500">Deal with pactisize individuals.</p>
-                        <p className="text-gray-500 dark:text-neutral-500">© Faruq Hossen © {new Date().getFullYear()}, All rights reserved.</p>
+                        <p className="text-gray-500 dark:text-neutral-500">© Computer Dictionary © {new Date().getFullYear()}, All rights reserved.</p>
                     </div>
 
 
